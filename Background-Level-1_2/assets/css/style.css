@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+section {
+    background-image: url("../img/holzwand-blau.avif");
+    background-size: contain;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    padding: 0.4em;
+}
+
+article {
+    background-image: url(../img/fenster-rotes-holz.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+ul {
+    margin-left: 4em;
+}
+
+h4 {
+    padding: 0.5em;
+}

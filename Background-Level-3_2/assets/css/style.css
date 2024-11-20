@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1.5vh;
+}
+
+h1 {
+    margin-bottom: 1.5vh;
+}
+
+p {
+    margin: 1em;
+    font-size: 1.5rem;
+}
+
+/* Grösse der div-Boxen */
+.bg-color, .bg-img, .bg-gradient{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    
+}
+/* div box background color darstellen */
+.bg-color {
+    background-color: rgb(228, 192, 99);
+    display: flex;
+    justify-content: center;
+}
+
+/*  div box background img darstellen */
+.bg-img {
+    background-image: url("../img/yellow-material.jpg");
+    background-size: cover;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, rgba(224,208,42,0.8846726190476191) 23%, rgba(149,132,11,1) 100%);
+}
+
+/* das div um die drei div boxen wird als reihe definiert, so stehen alle bilder nebeneinander */
+.order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

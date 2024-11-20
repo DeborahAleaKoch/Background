@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+} 
+
+/*  * Background einfügen */
+
+section {
+    background-image: url("../img/lantern-red.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* : Padding gibt hier den 'Rahmen' für das Img an */
+    padding: 100%;
+    margin: 5px;
+}
